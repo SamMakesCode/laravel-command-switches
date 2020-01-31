@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SamMakesCode\\CommandSwitches\\": "src/app"
+            "SamMakesCode\\CommandSwitches\\": "src/"
         }
     },
     "extra": {
