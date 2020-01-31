@@ -1,0 +1,29 @@
+{
+    "name": "sammakescode/laravel-command-switches",
+    "description": "A laravel helper library to allow you to switch commands on and off",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Littler",
+            "email": "samlittler57@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/database": "^6.13",
+        "illuminate/support": "^6.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "SamMakesCode\\CommandSwitches\\": "src/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SamMakesCode\\CommandsSwitches\\CommandSwitchesServiceProvider"
+            ]
+        }
+    }
+}
