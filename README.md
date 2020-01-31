@@ -20,6 +20,8 @@ After installation, run your migrations.
 
 # Usage
 
+## Checking if your command is switched on
+
 In your command use the `Switchable` trait.
 
 ```php
@@ -75,3 +77,11 @@ class SomeCommand extends Command
     }
 }
 ```
+
+## Switching you commands on and off
+
+You can toggle your commands and off anywhere in your code (such as in a admin section) like this:
+
+```php
+    \SamMakesCode\CommandSwitches\CommandSwitch::findOrCreate(SomeCommand::class)->setOn();
+````
