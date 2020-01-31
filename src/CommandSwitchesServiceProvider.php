@@ -1,6 +1,6 @@
 <?php
 
-namespace SamMakesCode\CommandsSwitches;
+namespace SamMakesCode\CommandSwitches;
 
 use Illuminate\Support\ServiceProvider;
 
